@@ -21,6 +21,7 @@ class TaskOneTests {
         for (int i = 0; i < 10; i++) {
             output.append(String.valueOf((int) Math.floor(Math.pow(i, i))));
         }
+        //1142725631254665682354316777216387420489
         output.append("\n").append("---end output ---");
         logger.info(output.toString());
 

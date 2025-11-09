@@ -38,6 +38,17 @@ public class TaskFourTests {
         logger.info("----------------------------------------------------------");
         logger.info("use your debugger to find out what wilbur's balance is after all transactions are processed");
         logger.info("kill this test once you find the answer");
+        //sender
+        //User[id=9, name='wilbur', balance='3460.209961'
+        //User[id=9, name='wilbur', balance='3452.209961'
+        //User[id=9, name='wilbur', balance='3321.839844'
+        //User[id=9, name='wilbur', balance='3193.369873'
+        //User[id=9, name='wilbur', balance='3089.419922'
+        //User[id=9, name='wilbur', balance='3073.419922'
+        //User[id=9, name='wilbur', balance='3065.419922'
+        //User[id=9, name='wilbur', balance='2935.049805'
+        //User[id=9, name='wilbur', balance='2806.579834'
+        //wilbur sent 103.95, new balance: 2702.63(last)
         while (true) {
             Thread.sleep(20000);
             logger.info("...");

@@ -32,6 +32,13 @@ class TaskTwoTests {
         logger.info("----------------------------------------------------------");
         logger.info("use your debugger to watch for incoming transactions");
         logger.info("kill this test once you find the answer");
+        //only submit first 4
+        //Transaction {senderId=6, recipientId=7, amount=122.86}
+        //Transaction {senderId=5, recipientId=2, amount=42.87}
+        //Transaction {senderId=7, recipientId=4, amount=161.79}
+        //Transaction {senderId=8, recipientId=7, amount=22.22}
+
+
         while (true) {
             Thread.sleep(20000);
             logger.info("...");

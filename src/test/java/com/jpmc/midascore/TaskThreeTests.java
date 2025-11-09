@@ -38,6 +38,11 @@ public class TaskThreeTests {
         logger.info("----------------------------------------------------------");
         logger.info("use your debugger to find out what waldorf's balance is after all transactions are processed");
         logger.info("kill this test once you find the answer");
+        //recipent
+        //User[id=5, name='waldorf', balance='489.969971'
+        //User[id=5, name='waldorf', balance='522.089966'
+        //User[id=5, name='waldorf', balance='627.859985'
+        //User[id=5, name='waldorf', balance='761.719971' Waldorf received 133.86, new balance: 761.72
         while (true) {
             Thread.sleep(20000);
             logger.info("...");
