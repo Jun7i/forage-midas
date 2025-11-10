@@ -15,18 +15,22 @@
     "@mui/material": "latest",
     "@mui/x-charts": "latest",
     "@mui/x-data-grid": "latest",
-    "@mui/x-date-pickers": "latest",
-    "@mui/x-tree-view": "latest",
     "@mui/x-data-grid-pro": "latest",
+    "@mui/x-date-pickers": "latest",
     "@mui/x-date-pickers-pro": "latest",
-    "dayjs": "latest",
+    "@mui/x-tree-view": "latest",
     "@react-spring/web": "latest",
+    "dayjs": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sockjs-client": "^1.6.1",
+    "stompjs": "^2.3.3"
   },
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/sockjs-client": "^1.5.4",
+    "@types/stompjs": "^2.3.9",
     "@vitejs/plugin-react": "latest",
     "typescript": "latest",
     "vite": "latest"

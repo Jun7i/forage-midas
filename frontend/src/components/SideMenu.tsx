@@ -53,7 +53,7 @@ export default function SideMenu() {
         }}
       >
         <MenuContent />
-        <CardAlert />
+        {/* <CardAlert /> */}
       </Box>
       <Stack
         direction="row"
@@ -67,16 +67,16 @@ export default function SideMenu() {
       >
         <Avatar
           sizes="small"
-          alt="Riley Carter"
+          alt="Zejun Li"
           src="/static/images/avatar/7.jpg"
           sx={{ width: 36, height: 36 }}
         />
         <Box sx={{ mr: 'auto' }}>
           <Typography variant="body2" sx={{ fontWeight: 500, lineHeight: '16px' }}>
-            Riley Carter
+            Zejun Li
           </Typography>
           <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-            riley@email.com
+            zejunl02@gmail.com
           </Typography>
         </Box>
         <OptionsMenu />
